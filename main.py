@@ -86,7 +86,8 @@ def tab_dashboard():
                 with cols[i % 5]:
                     st.markdown(
                         f"<div style='text-align:center;font-size:1.4rem;font-weight:bold;"
-                        f"background:#f0f2f6;border-radius:8px;padding:6px;margin:2px;'>{d:02d}</div>",
+                        f"background:#f0f2f6;border-radius:8px;padding:6px;margin:2px;"
+                        f"white-space:nowrap;min-width:2.4rem;display:inline-block;'>{d:02d}</div>",
                         unsafe_allow_html=True,
                     )
     else:
@@ -308,7 +309,8 @@ def tab_conferidor():
             with cols[i % 5]:
                 st.markdown(
                     f"<div style='text-align:center;font-size:1.3rem;font-weight:bold;"
-                    f"background:#e8f5e9;border-radius:8px;padding:6px;margin:2px;'>{d:02d}</div>",
+                    f"background:#e8f5e9;border-radius:8px;padding:6px;margin:2px;"
+                    f"white-space:nowrap;min-width:2.4rem;display:inline-block;'>{d:02d}</div>",
                     unsafe_allow_html=True,
                 )
 
